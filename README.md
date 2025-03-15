@@ -43,11 +43,4 @@ For a detailed analysis, check the [notebook](./Phishing_detection.ipynb).
 
 ---
 
-## 🚀 How to Run
 
-### 🔧 Local Setup
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/PhishingDetection.git
-   cd PhishingDetection
