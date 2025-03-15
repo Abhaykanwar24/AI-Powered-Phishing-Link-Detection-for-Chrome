@@ -1,4 +1,4 @@
-Phishing Detection using Machine Learning
+#Phishing Detection using Machine Learning
 
 Overview
 
@@ -37,13 +37,14 @@ Presence of special characters
 Domain age
 
 SSL certificate usage
+
 These attributes are extracted and processed to create a feature set that enables accurate classification.
 
 Model Training and Evaluation
 
 Two machine learning models were implemented and tested:
 
-1. Logistic Regression
+Logistic Regression
 
 A simple and effective baseline model for classification.
 
@@ -51,7 +52,7 @@ Achieved an accuracy of approximately 92% on the test dataset.
 
 Provides interpretable feature importance, allowing us to understand which factors contribute most to classification.
 
-2. Gradient Boosting Classifier
+Gradient Boosting Classifier
 
 An advanced ensemble model that improves accuracy by combining multiple weak learners.
 
