@@ -51,9 +51,6 @@ A Chrome extension that detects phishing URLs in real-time, displaying a probabi
 - Load this folder in Chrome via `chrome://extensions/` (Developer mode).
 - Future: Available on Chrome Web Store (TBD).
 
-## Credits
-- Based on my original phishing model: [phishing-detection-model](https://github.com/yourusername/phishing-detection-model).
-- 
 For a detailed analysis, check the [notebook](./Phishing_detection.ipynb).
 
 ---
