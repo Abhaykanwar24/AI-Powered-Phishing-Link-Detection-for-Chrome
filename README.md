@@ -39,6 +39,21 @@ The best-performing model is saved as `phishing_model.pkl` and used in the web a
 - **Best Model Accuracy**: 97%
 - **F1 Score**: 0.94
 
+# DetectThePhisher - Chrome Extension
+
+A Chrome extension that detects phishing URLs in real-time, displaying a probability score in a popup.
+
+## Features
+- Detects phishing traits (e.g., IP addresses, shorteners).
+- Built from logic inspired by my [Phishing Detection Model](https://github.com/yourusername/phishing-detection-model).
+
+## Installation
+- Load this folder in Chrome via `chrome://extensions/` (Developer mode).
+- Future: Available on Chrome Web Store (TBD).
+
+## Credits
+- Based on my original phishing model: [phishing-detection-model](https://github.com/yourusername/phishing-detection-model).
+- 
 For a detailed analysis, check the [notebook](./Phishing_detection.ipynb).
 
 ---
