@@ -1,51 +1,53 @@
+# 🛡️ Phishing Website Detection
 
-# Phishing Detection
-
-This project is designed to detect phishing websites using machine learning and natural language processing (NLP) techniques. It includes tools and resources to preprocess data, train models, and evaluate their performance.
+This project detects phishing websites using machine learning. It includes a trained model and a Flask-based web application for real-time detection.
 
 ---
 
 ## 📚 Overview
 
-Phishing detection is a crucial cybersecurity application that helps identify malicious websites attempting to deceive users. This project focuses on:
+Phishing attacks trick users into revealing sensitive information through deceptive websites. This project aims to classify URLs as **phishing** or **legitimate** based on extracted features.
 
-- Extracting features from URLs.
-- Preprocessing and analyzing dataset attributes.
-- Training various machine learning models.
-- Evaluating performance metrics such as accuracy, precision, recall, and F1-score.
+- **Feature Extraction**: Analyzing URL structure, domain details, and security indicators.
+- **Machine Learning**: Training a model to distinguish phishing websites.
+- **Web App**: A Flask-based interface to test URLs in real-time.
 
 ---
 
 ## 📁 Repository Contents
 
-- **`Phishing_detection.ipynb`**: Main Jupyter Notebook containing all steps of the project.
-- **Data**: Includes training and testing datasets.
-- **Models**: Pre-trained and custom-trained models.
-- **Scripts**: Python files for feature extraction and model training.
+- **`Phishing_detection.ipynb`**: Jupyter Notebook for data processing, feature extraction, model training, and evaluation.
+- **`app.py`**: Flask web application for real-time phishing detection.
+- **`phishing_model.pkl`**: Pre-trained model used in the Flask app.
+- **`templates/index.html`**: HTML file for the web interface.
+- **`static/`**: Contains CSS and JS files for styling and interactivity.
 
 ---
 
-## 🤖 Machine Learning Models
-
-The project implements and evaluates the following models:
+## 🤖 Machine Learning Models Used
 
 - **Logistic Regression**
 - **Random Forest Classifier**
+
+
+The best-performing model is saved as `phishing_model.pkl` and used in the web app.
 
 ---
 
 ## 📜 Results
 
-- **Model Accuracy**: 97%
+- **Best Model Accuracy**: 97%
 - **F1 Score**: 0.94
 
-For detailed results and analysis, refer to the [notebook](./Phishing_detection.ipynb).
+For a detailed analysis, check the [notebook](./Phishing_detection.ipynb).
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+### 🔧 Local Setup
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/PhishingDetection.git
    cd PhishingDetection
