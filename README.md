@@ -45,7 +45,7 @@ A Chrome extension that detects phishing URLs in real-time, displaying a probabi
 
 ## Features
 - Detects phishing traits (e.g., IP addresses, shorteners).
-- Built from logic inspired by my [Phishing Detection Model](https://github.com/yourusername/phishing-detection-model).
+- Built from logic inspired by my [Phishing Detection Model]([https://github.com/yourusername/phishing-detection-model](https://github.com/Abhaykanwar24/AI-Powered-Phishing-Link-Detection-for-Chrome/blob/main/Phishing_detection.ipynb)).
 
 ## Installation
 - Load this folder in Chrome via `chrome://extensions/` (Developer mode).
