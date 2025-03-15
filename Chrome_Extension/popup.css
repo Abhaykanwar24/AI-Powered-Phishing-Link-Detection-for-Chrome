@@ -1,0 +1,33 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  #urlDisplay {
+    font-size: 12px;
+    word-wrap: break-word;
+    margin: 10px 0;
+  }
+  
+  #result {
+    margin-top: 15px;
+  }
+  
+  #probability {
+    font-weight: bold;
+  }
+  
+  #status {
+    margin: 5px 0;
+    font-size: 14px;
+  }

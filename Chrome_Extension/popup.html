@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DetectThePhisher</title>
+  <style>
+    body {
+      width: 300px;
+      margin: 0;
+      padding: 15px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+    }
+    .container {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0 0 15px;
+      color: #1e88e5;
+    }
+    #url {
+      font-size: 13px;
+      color: #666;
+      word-wrap: break-word;
+      margin: 0 0 12px;
+    }
+    #probability {
+      font-size: 16px;
+      font-weight: 500;
+      color: #424242;
+      margin: 0 0 10px;
+    }
+    #result {
+      font-size: 14px;
+      padding: 6px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      font-weight: 500;
+    }
+    .safe {
+      background-color: #e8f5e9;
+      color: #2e7d32;
+    }
+    .phishing {
+      background-color: #ffebee;
+      color: #c62828;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>DetectThePhisher</h2>
+    <p id="url">Analyzing...</p>
+    <p id="probability"></p>
+    <p id="result"></p>
+  </div>
+  <script src="feature_extraction.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
